@@ -72,6 +72,31 @@ I typed in "Marketing-g", the group created earlier, and clicked "Check Names" t
 
 ![temp11](https://github.com/user-attachments/assets/921fd943-c582-4e92-b39b-81c1ad91efc2)
 
+Step 11: Created a Group Policy Object (GPO) for Security Policies
+To enforce password policies and disable the command prompt for enhanced security, I created a Group Policy Object (GPO). I started by navigating to the Group Policy Management tab under Tools.
+![temp12](https://github.com/user-attachments/assets/27743b1f-7d51-47cf-afc9-c486939b26e1)
+
+Step 12: Linked the GPO to the 'Marketing' OU
+I expanded the forest domainx.com, then right-clicked on the previously created Marketing OU to create and link the GPO within this domain. This allowed the security policies to apply specifically to the 'Marketing' organizational unit.
+
+![temp13](https://github.com/user-attachments/assets/dcc97fff-a31e-4d3a-8684-0e3ac687e90d)
+
+Step 13: Configured Password Policies
+Within the GPO settings, I navigated to the Password Policy tab. Here, I set the Maximum Password Age to 30 days and enforced complex password requirements to enhance security across the domain.
+
+![temp14](https://github.com/user-attachments/assets/d0eef73a-c67a-4de3-a4dc-5cc809f94a70)
+![temp15](https://github.com/user-attachments/assets/ea54d2fe-306b-4630-950d-6a89d0dcc8f6)
+
+Step 14: Disabled Command Prompt for Basic Users
+As a final security measure, I disabled the Command Prompt for basic users within the Marketing group. Since marketing users have no need for this tool, unlike the IT team, this restriction enhances security by limiting access to advanced system commands.
+
+![temp16](https://github.com/user-attachments/assets/36794120-f758-4a47-8a59-d0ebd2e86916)
+
+
+
+
+
+
 
 
 

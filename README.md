@@ -13,9 +13,7 @@ This hands-on project allowed me to explore and manage Active Directory objects 
 
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
 
-Every screenshot should have some text explaining what the screenshot is about.
 
 
 My first step in this project was creating an out-marketing group within AD. To do so I started by navigating to the "Active Directory users and computers" under the "tools" tab.

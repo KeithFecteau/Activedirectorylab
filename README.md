@@ -1,4 +1,4 @@
-# Configuring an Active Directory Home Lab
+# Configuring an Active Directory Home Lab by Keith Fecteau Jr
 
 ## Objective
 This hands-on project allowed me to explore and manage Active Directory objects using the "Active Directory Users and Computers" tool. I created and managed Organizational Units (OU), users, groups, and computer objects, gaining practical experience in Active Directory administration. My main goal of this at-home lab was to become comfortable in the AD environment. I used my university's virtualized environment to do so. I skipped configuring the virtualized environment to reduce the length of this project.
